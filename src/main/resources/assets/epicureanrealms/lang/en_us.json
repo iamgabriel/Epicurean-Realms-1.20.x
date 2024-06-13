@@ -1,3 +1,6 @@
 {
-  "item.epicureanrealms.luminite": "Luminite"
+  "item.epicureanrealms.luminite": "Luminite",
+  "item.epicureanrealms.raw_luminite": "Raw Luminite",
+
+  "creativetab.epicureanrealms_tab": "Epicurean Realms Tab"
 }

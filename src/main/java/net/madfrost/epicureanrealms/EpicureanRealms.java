@@ -1,6 +1,7 @@
 package net.madfrost.epicureanrealms;
 
 import com.mojang.logging.LogUtils;
+import net.madfrost.epicureanrealms.item.ModCreativeModTabs;
 import net.madfrost.epicureanrealms.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -24,6 +25,8 @@ public class EpicureanRealms {
     public EpicureanRealms() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -42,6 +45,7 @@ public class EpicureanRealms {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.LUMINITE);
+            event.accept(ModItems.RAW_LUMINITE);
         }
     }
 

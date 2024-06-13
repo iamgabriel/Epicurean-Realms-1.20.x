@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> LUMINITE = ITEMS.register("luminite",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_LUMINITE = ITEMS.register("raw_luminite",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

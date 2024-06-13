@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "epicureanrealms:block/raw_luminite_block"
+  }
+}

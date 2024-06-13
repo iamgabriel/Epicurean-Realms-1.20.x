@@ -1,6 +1,7 @@
 package net.madfrost.epicureanrealms.item;
 
 import net.madfrost.epicureanrealms.EpicureanRealms;
+import net.madfrost.epicureanrealms.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,6 +23,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_LUMINITE.get());
 
                         pOutput.accept(Items.DIAMOND);
+
+                        pOutput.accept(ModBlocks.LUMINITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_LUMINITE_BLOCK.get());
 
                     })
                     .build());

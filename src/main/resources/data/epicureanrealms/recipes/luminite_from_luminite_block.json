@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "epicureanrealms:luminite_block"
+    }
+  ],
+  "result": {
+    "item": "epicureanrealms:luminite",
+    "count": 9
+  }
+}

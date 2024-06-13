@@ -1,6 +1,7 @@
 package net.madfrost.epicureanrealms;
 
 import com.mojang.logging.LogUtils;
+import net.madfrost.epicureanrealms.block.ModBlocks;
 import net.madfrost.epicureanrealms.item.ModCreativeModTabs;
 import net.madfrost.epicureanrealms.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +29,7 @@ public class EpicureanRealms {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

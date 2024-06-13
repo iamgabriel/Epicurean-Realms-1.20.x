@@ -2,5 +2,8 @@
   "item.epicureanrealms.luminite": "Luminite",
   "item.epicureanrealms.raw_luminite": "Raw Luminite",
 
+  "block.epicureanrealms.luminite_block": "Block of Luminite",
+  "block.epicureanrealms.raw_luminite_block": "Block of Raw Luminite",
+
   "creativetab.epicureanrealms_tab": "Epicurean Realms Tab"
 }
